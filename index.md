@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Home"
-permalink: "/blog"
 ---
 
 # Welcome to My Blog
