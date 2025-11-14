@@ -7,7 +7,6 @@
 </head>
 <body>
   <header>
-    <!-- Blog title links to /blog/ properly -->
     <h1>
       <a href="{{ '/blog' | relative.url }}">{{ site.title }}</a>
     </h1>
@@ -15,13 +14,11 @@
       <p>{{ site.description }}</p>
     {% endif %}
   </header>
-
   <main>
     {{ content }}
   </main>
-
   <footer>
-    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>footer</p>
   </footer>
 </body>
 </html>
