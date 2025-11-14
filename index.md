@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Home"
-permalink: "/blog"
 ---
 
 # Welcome to My Blog
@@ -9,5 +8,5 @@ permalink: "/blog"
 Here are my posts:
 
 {% for post in site.posts %}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ post.url | relative.url }}">{{ post.title }}</a>
 {% endfor %}
