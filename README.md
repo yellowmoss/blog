@@ -11,5 +11,5 @@ or even json-ld
 
 The blog is here:
 
-https://yellowmoss.github.io/blog/
+https://yellowmoss.github.io/simpleblog/
 
