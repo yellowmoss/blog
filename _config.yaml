@@ -1,5 +1,5 @@
-title: My Software Development Blog
-description: A simple blog hosted on GitHub Pages
+title: My Simple Weird Blog
+description: Lowest common demoninator blog from which to expand and customise 
 markdown: kramdown
 baseurl: "/blog"
 url: "https://yellowmoss.github.io/"

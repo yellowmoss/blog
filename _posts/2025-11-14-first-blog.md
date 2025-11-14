@@ -3,8 +3,7 @@ layout: default
 title: "First Post"
 date: "2025-11-14"
 ---
-This is my first blog post. It has no formatting.
-I chose the github platform to host because it's
-established, free, and will have long term support.
+bla bla bla bla this is my first post bla bla 
 
-Therefore I will use the Jekyll static site framework.
+bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla look at how simple it is bla bla bla
