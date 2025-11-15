@@ -22,7 +22,7 @@ Take the repository name out of the default.html layout
 
 #### Filter
 
-{{ variable | function: arg }}
+{{ input | function: arg }}
 
 {{ "Text" | append: "My Blog" }} 
 
@@ -35,28 +35,27 @@ Take the repository name out of the default.html layout
 {% endfor %}
 
 #### Variables
-* page.title
-* page.layout
-* page.custom_var
-* page.content
-* page.title
-* page.url
-* page.date
-* page.excerpt
-* page.categories
-* page.tags
-* page.slug
+page.title
+page.layout
+page.content
+page.title
+page.url
+page.date
+page.categories
+page.tags
+page.slug
+
+page.custom_var
+
 
 * site.title
-* site.email
 * site.baseurl
 * site.posts
 * site.pages
-* site.data.filename.key
-(accesses key in _data/filename.yaml)
+* site.data.filename.key (accesses key in _data/filename.yaml)
 * site.collections
-* site.time
 * site.url
+* site description (as defined in: _config.yaml)
 
 ##### Filters
 relative_url
